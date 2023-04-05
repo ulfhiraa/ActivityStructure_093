@@ -30,3 +30,12 @@ int main() {
         cin.getline(mhs[i].alamat.kota, 20);
     }
 
+    for (int i = 0; i < 3; i++) {
+        cout << "\n\nNIM : " << mhs[i].nim;
+        cout << "\nUmur : " << mhs[i].umur;
+        cout << "\nNama : " << mhs[i].nama;
+        cout << "\nAlamat : ";
+        cout << "\n\tDesa : " << mhs[i].alamat.desa;
+        cout << "\n\tKota : " << mhs[i].alamat.kota;
+    }
+}
