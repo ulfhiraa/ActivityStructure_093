@@ -21,7 +21,7 @@ int main() {
     cin.getline(mhs.nim, 12);
     cout << "Masukkan Umur : ";
     cin >> mhs.umur; 
-    cin.ignore(1, '\n');
+    cin.ignore(1, '\n'); 
     cout << "Masukkan Nama : ";
     cin.getline(mhs.nama, 20);
     cout << "Alamat : ";
