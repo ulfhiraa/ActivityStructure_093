@@ -6,3 +6,11 @@ struct DetailAlamat
 	char desa[20];
 	char kota[20];
 };
+
+struct Mahasiswa
+{
+	char nim[20];
+	char nama[20];
+	DetailAlamat alamat;
+	int umur;
+};
