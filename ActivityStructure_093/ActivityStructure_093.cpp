@@ -16,3 +16,12 @@ int main() {
 	mhs.umur = 20;
 	mhs.nama = "Ardian Mulya";
 	mhs.alamat = "Wonosobo";
+
+	cout << "Masukkan NIM    : ";
+	cin >> mhs2.nim;
+	cout << "Masukkan Umur   : ";
+	cin >> mhs2.umur;
+	cout << "Masukkan Nama   : ";
+	cin >> mhs2.nama;
+	cout << "Masukkan Alamat : ";
+	cin >> mhs2.alamat;
